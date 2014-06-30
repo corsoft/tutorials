@@ -11,17 +11,17 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * class to run up a Jetty Server (on http://localhost:8080)
  * 
  */
-@EnableAutoConfiguration
-@ComponentScan("org.baeldung")
+//@EnableAutoConfiguration
+//@ComponentScan("org.baeldung")
 public class SampleLDAPApplication extends WebMvcConfigurerAdapter {
 
-    public static void main(String[] args) {
-        SpringApplication.run(SampleLDAPApplication.class, args);
-    }
+	/*public static void main(String[] args) {
+		SpringApplication.run(SampleLDAPApplication.class, args);
+	}
 
-    @Override
-    public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/login").setViewName("login");
-    }
+	@Override
+	public void addViewControllers(ViewControllerRegistry registry) {
+		registry.addViewController("/login").setViewName("login");
+	}*/
 
 }
